@@ -1,7 +1,7 @@
-HoverAsk
+OverlayAsk
 ========
 
-Add this to your HTML and add your description, etc. to the Askbox part in the customise menu then add the .overlay_ask to the link you want to use for it.
+Add this to your HTML and add your description, etc. to the askbox part in the customise menu then add the .overlay_ask to the link you want to use for it.
 
 ```html
 <meta name="text:askbox" content="" />
