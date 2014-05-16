@@ -1,7 +1,7 @@
 OverlayAsk
 ========
 
-Add this to your HTML and add your description, etc. to the askbox part in the customise menu then add the .overlay_ask to the link you want to use for it.
+Add this to your HTML and add your description, etc. to the askbox part in the customise menu then add the .overlay_ask to the link you want to use for it. Make sure to replace YOUR_URL with your Tumblr URL.
 
 ```html
 <meta name="text:askbox" content="" />
@@ -31,7 +31,7 @@ $(document).ready(function() {
 	<div id="background" style="position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: #000; opacity: .75;"></div>
 	<div style="padding: 10px; width: 500px; height: 220px; background: #fff;position: absolute; left: 50%; top: 50%;  margin-left: -250px; margin-top: -100px;">
 		<p>{text:askbox}</p>
-		<p><iframe frameborder="0" width="500" height="190" src="http://tumblr.com/ask_form/reblogalert.tumblr.com"></iframe></p>
+		<p><iframe frameborder="0" width="500" height="190" src="http://tumblr.com/ask_form/YOUR_URL.tumblr.com"></iframe></p>
 	</div>
 </div>
 ```
